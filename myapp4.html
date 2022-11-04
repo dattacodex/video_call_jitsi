@@ -6,7 +6,7 @@
             $(function(){
 
                 $('#btnCreateMeetingLink').on('click',function(){
-                    var murl = window.location.origin + "/jitsi-integration-examples-master/meeting.html?mid=" +  (new Date()).getTime();
+                    var murl = window.location.origin + "/video_call_jitsi/meeting.html?mid=" +  (new Date()).getTime();
                     $('#meetingid').attr('href',murl).text(murl);
                 });
             });
